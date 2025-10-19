@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <div>
+	    <h2>First you need to login to your account!</h2>
+	    <h2>If you don't have an account you can register from here:</h2>
+		<h3>Register:</h3>
+	  </div>
+	  	
+          	 <form class="register" action="index.html" method="post">
+	    	    <label>
+					Username: <br>
+				<input type="text" placeholder="Enter your username" required> <br>
+	    	    </label>
+	     	    <label>
+					E-Mail: <br>
+				<input type="email" placeholder="example@gmail.com" required> <br>
+	     	    </label>	
+	            <label>
+		        	Password: <br>
+		        <input type="password" placeholder="Enter your password" required> <br>
+	            </label>	
+		    <label>
+			Your birth date: <br>
+			<input type="date" required> <br>
+		    </label> <br>
+		    <button type ="submit">Register</button>
+			</form>
+
+			<section>
+				<h2>You already have an account?</h2>
+				<button type="button" onclick="window.location.href='login.html'">Login</button>
+				<button type="button" onclick="window.location.href='index.html'">Home</button>
+			</section>
+</body>
+</html>
